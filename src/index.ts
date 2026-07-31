@@ -30,3 +30,5 @@ export function merge (collection_1: number[], collection_2: number[], collectio
 
   return result_collection;
 }
+
+console.log(merge([-5,-1,2,4,6,7], [3,1,-2], [-10,3]))
